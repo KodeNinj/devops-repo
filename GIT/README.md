@@ -28,6 +28,29 @@ You want to be able to use SSH to bind your local, physical computer This means,
 ### Cloning Repo locally on your system
 This just means, in layman terms, you want to download the repository onto your system so that you can work with the file. But in this type of download, the downloaded files is still partially linked to the repository on your Github.
 To clone repo:
--  on the repo dashboard, click the code button and navigate HTTPS Panel and copy the code
+- on the repo dashboard, click the code button and navigate SSH Panel and copy the code
 - go to the CLI and type the following code, while still in the same directory you have your ssh-rsa key,
 ```git clone <the code you copied>```
+- This will clone the repository locally unto your computer
+
+### Working with the Cloned Repo: Adding to the Imaginary Box
+So, now you have the files locally on your device. Let's assume you've done some things on the repo. E.g. Create new file, deleted something, edit some file, etc. These changes needs to be bundled inside the git box. 
+
+Don't mind me, that's how I was able to learn it. Let me explain it to you this way. As a developer, you get a file that others are working with. All the changes you made have to be packaged into a box of change as you make all your changes. Finally, when you are done with tthe work, you will have to send this box back to the GitHub where the comparison and merging of other boxes can be done into one huge box of project. Is that clear?
+
+Now, let's continue from where I stopped ---------> "Let's assume you've done some things on the repo. E.g. Create new file, deleted something, edit some file, etc. These changes needs to be bundled inside the git box." 
+
+Now, have made some changes to the file you cloned. You will need to add these changes inside the git box. Your own little box. To do this, enter the code below.
+
+```git add <name of the file>``` --------------------------> This will add that particular file into the imaginary box.
+
+what happen if you made changes to numerous files, don't tell me you will write that multiple times for all the files. Nah! Your blood might dry. 
+To do this for numerous files, enter the line of code below
+
+```git add .``` ------------> The dot after the "add" means you are adding all files to the imaginary box.
+
+### Working with the Cloned Repo: Done working with Repo
+So, after all the changes, you decide that it's time to save your changes globally on the GitHub repo. This means you want to add your own box to other boxes on github to be merged into the giant box of project. Before you can move the box online, you will need to first seal the box. There are some rules that is need while sealing the box.
+- The box must be given a special title: as a dev, you will be working with a lot of boxes (box = change). And after you are done with each boxes, you will need to submit it to the box manager (Git - version control handled by GitHub here). To avoid confusion of "who have what", proper labelling of the box is needed.. This is called COMMIT MESSAGE.
+
+```git commit -m "COMMIT MESSAGE"``` --------------> The -m is a flag that signifies that the next string is a message. Ensure to use intuitive label for your box. 
