@@ -68,3 +68,5 @@ Like I said earlier, after you are done with your changes, you will need to send
 - Merging branches
 - Pulling changes
 - Deleting Branches
+- Rebase
+- Resolving conflict
