@@ -49,8 +49,13 @@ To do this for numerous files, enter the line of code below
 
 ```git add .``` ------------> The dot after the "add" means you are adding all files to the imaginary box.
 
-### Working with the Cloned Repo: Done working with Repo
+### Seal the damn Box
 So, after all the changes, you decide that it's time to save your changes globally on the GitHub repo. This means you want to add your own box to other boxes on github to be merged into the giant box of project. Before you can move the box online, you will need to first seal the box. There are some rules that is need while sealing the box.
 - The box must be given a special title: as a dev, you will be working with a lot of boxes (box = change). And after you are done with each boxes, you will need to submit it to the box manager (Git - version control handled by GitHub here). To avoid confusion of "who have what", proper labelling of the box is needed.. This is called COMMIT MESSAGE.
 
 ```git commit -m "COMMIT MESSAGE"``` --------------> The -m is a flag that signifies that the next string is a message. Ensure to use intuitive label for your box. 
+
+### Box sealed? Now Push that Thing to space
+Like I said earlier, after you are done with your changes, you will need to send it globally where it will be compared and merged with the giant box (main code). So how do you send your box to this merging room?
+
+```git push``` -------------> This line of code will send the sealed box into space. Note: there are times you will need to add other things to this code. ut for now, let's stick to this simple line of code.
