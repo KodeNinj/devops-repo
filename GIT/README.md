@@ -1,7 +1,7 @@
 # GIT & GITHUB
 In this section I learnt about how code collaborations takes place and how these codes are managed from a single source called repository
 
-## LEARNING STEPS
+## LEARNING STEPS 1: Basics
 
 ### Getting Started:
 To get started, the git client must first be installed on the user's device. For this training, I installed it directly from my Ubuntu CLI using 
@@ -59,3 +59,12 @@ So, after all the changes, you decide that it's time to save your changes global
 Like I said earlier, after you are done with your changes, you will need to send it globally where it will be compared and merged with the giant box (main code). So how do you send your box to this merging room?
 
 ```git push``` -------------> This line of code will send the sealed box into space. Note: there are times you will need to add other things to this code. ut for now, let's stick to this simple line of code.
+
+##  LEARNING STEPS 2: Moving Forward
+
+- Creating Branches
+- Moving From Branches
+- Commiting from  New branches
+- Merging branches
+- Pulling changes
+- Deleting Branches
